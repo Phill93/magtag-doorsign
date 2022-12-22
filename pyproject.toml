@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "magtag-doorsign"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Bacher <mail@phill93.de>"]
+readme = "README.md"
+packages = [{include = "magtag_doorsign"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+circuitpython-stubs = "^7.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
